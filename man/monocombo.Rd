@@ -37,6 +37,6 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Bo Zhang \email{bo.zhang@uth.tmc.edu}
+\strong{Maintainer}: Bo Zhang \email{bozhmsu@gmail.com}
 
 }
