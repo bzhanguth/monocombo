@@ -1,8 +1,7 @@
 ## Test environments
 
 * local macOS (x86_64), R 4.3.3
-* win-builder (R-devel)
-* R-hub (Linux, Windows, macOS)
+* R-hub via GitHub Actions: Linux, Windows, macOS (R-devel)
 
 ## R CMD check results
 
