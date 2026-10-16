@@ -1,0 +1,9 @@
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+*.Rcheck/
+*.tar.gz
+vignettes/*.html
+vignettes/*_cache/
+vignettes/*_files/

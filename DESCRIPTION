@@ -1,0 +1,31 @@
+Package: monocombo
+Title: Mono-Combo Seamless Clinical Trial Design, Simulation, and Analysis
+Version: 0.1.0
+Authors@R: person("Bo", "Zhang",
+    email = "bo.zhang@uth.tmc.edu",
+    role = c("aut", "cre"))
+Description: Provides a unified framework for designing, simulating operating
+    characteristics of, and analyzing multi-arm multi-stage (MAMS) seamless
+    clinical trials that start with monotherapy and roll in combination therapy
+    mid-trial when needed. Supports binary endpoints and four design flavors:
+    OR-Platform (order-restricted), Platform, 2-stage MAMS, and 3-stage MAMS.
+    Implements group-sequential efficacy and futility boundaries using O'Brien-
+    Fleming or Pocock alpha-spending, with strong control of the one-sided
+    family-wise error rate (FWER) via Dunnett-type multivariate normal/t
+    probability calculations.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Imports:
+    mvtnorm,
+    MASS
+Suggests:
+    knitr,
+    rmarkdown,
+    kableExtra,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+URL: https://github.com/bzhanguth/monocombo
+BugReports: https://github.com/bzhanguth/monocombo/issues
