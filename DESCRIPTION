@@ -2,7 +2,7 @@ Package: monocombo
 Title: Mono-Combo Seamless Clinical Trial Design, Simulation, and Analysis
 Version: 0.1.0
 Authors@R: person("Bo", "Zhang",
-    email = "bo.zhang@uth.tmc.edu",
+    email = "bozhmsu@gmail.com",
     role = c("aut", "cre"))
 Description: Provides a unified framework for designing, simulating operating
     characteristics of, and analyzing multi-arm multi-stage (MAMS) seamless
